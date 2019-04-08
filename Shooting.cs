@@ -95,7 +95,7 @@ public class Shooting : MonoBehaviour
                 hitObject = hitCol.gameObject;
                 hitObjectRotation = hitObject.transform.rotation;
 
-                //Makes visual FX visible
+                //Makes visual X visible
                 bulletImpact = Instantiate(shotgunBulletImpactPrefab, mainHitPoint, hitObjectRotation);
                 StartCoroutine(destroyVisualFX(bulletImpact, rifleBulletImpactLifetime)); //Destroys a visual effect after a delay
 
