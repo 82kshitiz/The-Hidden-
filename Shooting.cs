@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Shooting : MonoBehaviour
 {
-    //Determines active weapon
     [Tooltip("pistol = 1; rifle = 2; shotgun = 3")]
     public int weaponEquipped = 1;
     [Tooltip("Range of pistol")]
